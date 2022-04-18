@@ -1,0 +1,30 @@
+  @font-face {
+    font-family: "d-din";
+    src: url("fonts/D-DIN-Bold.otf");
+    src: url("fonts/D-DIN-Italic.otf");
+    src: url("fonts/D-DINExp.otf");
+    src: url("fonts/D-DINCondensed.otf");
+    src: url("fonts/D-DINCondensed-Bold.otf");
+    src: url("fonts/D-DINExp-Italic.otf");
+    src: url("fonts/D-DIN.otf");
+ }
+
+
+
+body{
+    background-color: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    font-family: d-din;
+    font-size: 17px;
+    max-width: 700px;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
