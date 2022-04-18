@@ -1,10 +1,24 @@
 /* @import url('http://fonts.cdnfonts.com/css/d-din'); */
 
-* {
-    font-family: 'D-DIN Condensed', sans-serif;
-    font-family: 'D-DIN Exp', sans-serif;
-    font-family: 'D-DIN', sans-serif;
+@font-face {
+    font-family: "d-din";
+    src: url("fonts/D-DIN-Bold.otf");
+    src: url("fonts/D-DIN-Italic.otf");
+    src: url("fonts/D-DINExp.otf");
+    src: url("fonts/D-DINCondensed.otf");
+    src: url("fonts/D-DINCondensed-Bold.otf");
+    src: url("fonts/D-DINExp-Italic.otf");
+    src: url("fonts/D-DIN.otf");
+    }
 
+* {
+/* font-family: 'D-DIN Condensed', sans-serif;
+font-family: 'D-DIN Exp', sans-serif;
+font-family: 'D-DIN', sans-serif; */
+font-family: d-din;
+}
+
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -98,6 +112,7 @@ header {
     text-decoration: none;
     /* font-size: 1.5rem; */
     font-family: 'D-DIN', sans-serif;
+    font-family: d-din;
     font-size: 14px;
     color: white;
     margin: .5rem 1rem;
@@ -517,6 +532,7 @@ body {
     margin-bottom: 1rem;
     border-radius: .5rem;
     font-family: 'D-DIN', sans-serif;
+    font-family: d-din;
 }
 
 .footer-bottom {
